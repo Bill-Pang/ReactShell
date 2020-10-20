@@ -1,0 +1,18 @@
+.messageBox {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.messageBox > div {
+  width: 20%;
+  margin: auto;
+  background: bisque;
+  height: 50px;
+  line-height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  position: relative;
+  transition: all 0.5s;
+}
